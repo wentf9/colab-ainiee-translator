@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Secrets & local configuration
+.env
+.env.*
+!.env.example
+rclone.conf
+
+# Runtime outputs, logs & archives
+outputs/
+logs/
+*.log
+*.tar.gz
+*.gz
+*.zip
+
+# Root-level game translation files & AiNiee caches (keep sample_mtool/ tracked)
+/ManualTransFile.json
+/ManualTransFile*.json
+AinieeCacheData.json
+ProjectCache/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
