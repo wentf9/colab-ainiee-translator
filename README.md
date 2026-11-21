@@ -4,6 +4,8 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg)](https://www.python.org/)
 [![Google Colab CLI](https://img.shields.io/badge/Google%20Colab-G4%20%7C%20A100-F9AB00.svg)](https://colab.research.google.com/)
 
+**简体中文** | [English](README_EN.md)
+
 在 Google Colab **G4（NVIDIA RTX PRO 6000 Blackwell 96GB）** 等 GPU 运行时上全自动运行 **vLLM + 去审查 Qwen3.8/3.6 开源模型 + 官方 [AiNiee](https://github.com/NEKOparapa/AiNiee) 7.3.0 无头后端**，一键完成日语 Galgame / RPG 游戏（含 18x / R18 内容）的 MTool 翻译全流程：
 
 1. 自动创建 Colab GPU 会话并快速配置隔离环境（vLLM 环境 ~22.5s；AiNiee 环境在后台与权重下载并行完成）
@@ -24,6 +26,7 @@
 - `setup_gdrive.sh`：一次性配置 `rclone` Google Drive 授权脚本（无需 sudo，支持 Linux / macOS）
 - `sample_mtool/ManualTransFile.json`：含角色名、奇幻术语、RPG 控制符与 Galgame 对话的合成测试样本
 - `.env.example`：可选的 `HF_TOKEN` 环境变量示例
+- `README.md` / `README_EN.md`：中英文说明文档
 - `LICENSE`：MIT 开源协议
 
 ---
